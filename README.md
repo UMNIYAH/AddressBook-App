@@ -1,0 +1,1 @@
+Build Status Badge: [![Java CI with Maven](https://github.com/UMNIYAH/AddressBook-App/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/UMNIYAH/AddressBook-App/actions/workflows/ci.yml)
