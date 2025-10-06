@@ -45,5 +45,6 @@ public class AddressBookIntegrationTest {
         assertNotNull(updatedBook);
         assertEquals(1, updatedBook.getBuddies().size());
         assertEquals("Umniyah", updatedBook.getBuddies().get(0).getName());
+        assertEquals("K2O9P1", updatedBook.getBuddies().get(0).getAddress());
     }
 }
