@@ -1,0 +1,15 @@
+### Create address book
+POST http://localhost:8081/api/addressbooks
+
+### Add buddy
+POST http://localhost:8081/api/addressbooks/1/buddies
+Content-Type: application/json
+
+{
+  "name": "Umniyah",
+  "address": "K2O9P1",
+  "phoneNumber": "12345"
+}
+
+### Delete buddy
+DELETE http://localhost:8081/api/addressbooks/1/buddies/2
